@@ -1,0 +1,18 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "${CLAUDE_HOME}/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-05-25T06:16:28.015Z"
+  },
+  "claude-sync": {
+    "source": {
+      "source": "github",
+      "repo": "chenyii1120/claude-sync"
+    },
+    "installLocation": "${CLAUDE_HOME}/plugins/marketplaces/claude-sync",
+    "lastUpdated": "2026-05-28T06:17:02.598Z"
+  }
+}

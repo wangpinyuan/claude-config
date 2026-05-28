@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "plugins": {
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "${CLAUDE_HOME}/plugins/cache/claude-plugins-official/skill-creator/1b527e2ee74e",
+        "version": "1b527e2ee74e",
+        "installedAt": "2026-05-25T03:34:36.139Z",
+        "lastUpdated": "2026-05-25T06:10:43.104Z",
+        "gitCommitSha": "1b527e2ee74e6dbd198e22cd41701c3b6f47dfec"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "${CLAUDE_HOME}/plugins/cache/claude-plugins-official/frontend-design/1b527e2ee74e",
+        "version": "1b527e2ee74e",
+        "installedAt": "2026-05-25T03:34:36.139Z",
+        "lastUpdated": "2026-05-25T06:10:43.104Z",
+        "gitCommitSha": "1b527e2ee74e6dbd198e22cd41701c3b6f47dfec"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "${CLAUDE_HOME}/plugins/cache/claude-plugins-official/code-review/1b527e2ee74e",
+        "version": "1b527e2ee74e",
+        "installedAt": "2026-05-25T03:34:36.139Z",
+        "lastUpdated": "2026-05-25T06:10:43.104Z",
+        "gitCommitSha": "1b527e2ee74e6dbd198e22cd41701c3b6f47dfec"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "${CLAUDE_HOME}/plugins/cache/claude-plugins-official/superpowers/5.1.0",
+        "version": "5.1.0",
+        "installedAt": "2026-05-25T06:17:48.304Z",
+        "lastUpdated": "2026-05-25T06:17:48.304Z",
+        "gitCommitSha": "f2cbfbefebbfef77321e4c9abc9e949826bea9d7"
+      }
+    ],
+    "claude-sync@claude-sync": [
+      {
+        "scope": "user",
+        "installPath": "${CLAUDE_HOME}/plugins/cache/claude-sync/claude-sync/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-05-28T06:17:20.228Z",
+        "lastUpdated": "2026-05-28T06:17:20.228Z",
+        "gitCommitSha": "09dff7ada7ebc364371ea962ee94d833c5b53926"
+      }
+    ]
+  }
+}
