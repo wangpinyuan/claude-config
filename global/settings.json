@@ -26,5 +26,6 @@
         "repo": "chenyii1120/claude-sync"
       }
     }
-  }
+  },
+  "model": "opus"
 }
