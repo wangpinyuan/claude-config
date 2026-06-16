@@ -1,37 +1,21 @@
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "sk-25fd8fd711cf4f8a9f75c946d7b7c072",
-    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-flash",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-pro[1M]",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "deepseek-v4-pro",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4-pro[1M]",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "deepseek-v4-pro",
-    "ANTHROPIC_MODEL": "deepseek-v4-pro",
+    "ANTHROPIC_AUTH_TOKEN": "ark-138caabd-8a2e-4faf-93ae-3020e6dadb15-89dbf",
+    "ANTHROPIC_BASE_URL": "https://ark.cn-beijing.volces.com/api/coding",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-5.1",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME": "glm-5.1",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-5.1[1M]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "glm-5.1",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-5.1[1M]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "glm-5.1",
+    "ANTHROPIC_MODEL": "glm-5.1",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
   },
   "includeCoAuthoredBy": false,
-  "model": "opus",
   "enabledPlugins": {
-    "code-review@claude-plugins-official": true,
-    "frontend-design@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": true,
-    "claude-sync@claude-sync": true
-  },
-  "extraKnownMarketplaces": {
-    "claude-sync": {
-      "source": {
-        "source": "github",
-        "repo": "chenyii1120/claude-sync"
-      }
-    }
-  },
-  "permissions": {
-    "allow": [
-      "Bash(git commit *)"
-    ]
-  },
-  "effortLevel": "xhigh"
+    "frontend-design@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true
+  }
 }
